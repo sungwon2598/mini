@@ -35,3 +35,13 @@ out/
 
 ### VS Code ###
 .vscode/
+
+# Application config files
+**/application.yml
+**/application.yaml
+**/application.properties
+**/application-*.yml
+**/application-*.yaml
+**/application-*.properties
+deployment-web/config.json
+**/.env
