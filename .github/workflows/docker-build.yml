@@ -3,7 +3,7 @@ name: Build and Push Docker Image
 on:
   push:
     tags:
-      - 'new-0.25.12.23'  # 기능명-날짜 형식 (예: feature-20241223)
+      - '*-*'  # 하이픈 포함된 모든 태그 감지 (feature-20241223, new-20241223 등)
 
 env:
   REGISTRY: ghcr.io
